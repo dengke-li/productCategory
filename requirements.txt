@@ -1,0 +1,12 @@
+apache-airflow==2.6.2
+apache-airflow-providers-celery==3.2.0
+apache-airflow-providers-common-sql==1.5.1
+apache-airflow-providers-ftp==3.4.1
+apache-airflow-providers-http==4.4.1
+apache-airflow-providers-imap==3.2.1
+apache-airflow-providers-sqlite==3.4.1
+mlflow==2.4.1
+pyspark==3.4.1
+scikit-learn==1.2.2
+
+
