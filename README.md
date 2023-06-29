@@ -32,7 +32,7 @@ then normally you can find them in all DAGs dashboard, you can enable them,
 by default mlflow_training_workflow DAG is scheduled monthly, and inference_model_task DAG is scheduled daily. 
 But you can also trigger it manually by click triangle button, run mlflow_training_workflow firstly, it will run
 training for all clients in data/train folder, once success, you can run inference_model_task, it will run inference
-for all clients in data/prediction.
+for all clients in data/prediction, and generate result in results folder.
 
 Reference: https://airflow.apache.org/docs/apache-airflow/stable/start.html
 
