@@ -69,4 +69,5 @@ Reference: https://airflow.apache.org/docs/apache-airflow/stable/start.html
 6. for inference in production, we can also monitor some performance metrics, input data quality/drift, resource utilisation, system health by using tool like prometheus
    for future improvement, establish alert mecanism for detecting anomalies on grafana etc
 7. Need to integrate the whole pipeline into CICD to automate model test, deployment
+8. Add some integration test and more unitest
 
